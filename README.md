@@ -11,10 +11,10 @@ I add some unit tests for favoriteComponent. I didn't have time to add it for al
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## What else could be done
- If I had more time I would create this app to be PWA. With PWA I can add also push notifications for events. For example for favorite events, when it starts or when it ends.
- I would replace my storage functions with ngRx.
- I planed to add google maps in details dialog
- I'm usgin virtual scroll in this app, so the rendering performance is much better on mobile and on web.
- Add more tests, test for all components.
+  ### If I had more time I would create this app to be PWA. With PWA I can add also push notifications for events. For example for favorite events, when it starts or when it ends.
+  ### I would replace my storage functions with ngRx.
+  ### I planed to add google maps in details dialog
+  ### I'm usgin virtual scroll in this app, so the rendering performance is much better on mobile and on web.
+  ### Add more tests, test for all components.
 
 
