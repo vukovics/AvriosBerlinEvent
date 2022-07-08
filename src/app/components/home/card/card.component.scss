@@ -1,0 +1,13 @@
+.mat-card-image {
+  width: 200px;
+  margin: 0 -16px 16px -16px;
+  display: block;
+  overflow: hidden;
+}
+
+.truncate{
+  width: 300px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}

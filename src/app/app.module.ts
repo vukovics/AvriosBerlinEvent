@@ -18,6 +18,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { CardComponent } from './components/home/card/card.component';
+import { NotificationComponent } from './components/shared/notification/notification.component';
 
 @NgModule({
   entryComponents: [DialogEventDetailsDialog],
@@ -25,6 +27,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     AppComponent,
     HomeComponent,
     DialogEventDetailsDialog,
+    CardComponent,
+    NotificationComponent,
   ],
   imports: [
     BrowserModule,
@@ -40,6 +44,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatFormFieldModule,
     MatInputModule,
     MatToolbarModule,
+    MatCardModule,
+    MatIconModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent],
