@@ -1,0 +1,9 @@
+<h1 class="text-center">Favorite events</h1>
+<h2 class="text-center" *ngIf="favoriteEvents.length === 0">No favorite events :(</h2>
+<div *ngFor="let event of favoriteEvents" class="event-list">
+  <card
+    [event]="event"
+    [isFavorites]="true"
+    (removeFavEventEmitter)="removeFavEvent($event)"
+  ></card>
+</div>

@@ -20,6 +20,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { CardComponent } from './components/home/card/card.component';
 import { NotificationComponent } from './components/shared/notification/notification.component';
+import { FavoritesComponent } from './components/favorites/favorites.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
   entryComponents: [DialogEventDetailsDialog],
@@ -29,6 +32,9 @@ import { NotificationComponent } from './components/shared/notification/notifica
     DialogEventDetailsDialog,
     CardComponent,
     NotificationComponent,
+    FavoritesComponent,
+    ToolbarComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

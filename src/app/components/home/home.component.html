@@ -1,7 +1,13 @@
+<input
+  matInput
+  class="search-input"
+  placeholder="Search"
+  [(ngModel)]="searchText"
+/>
 <cdk-virtual-scroll-viewport itemSize="100" class="example-viewport">
   <div
     *cdkVirtualFor="
-      let event of (eventList$ | async)?.index;
+      let event of (eventList$ | async)?.index | eventFilter: searchText;
       templateCacheSize: 0
     "
     class="event-list"
