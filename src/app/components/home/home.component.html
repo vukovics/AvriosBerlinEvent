@@ -1,0 +1,11 @@
+<cdk-virtual-scroll-viewport itemSize="100" class="example-viewport">
+  <div
+    *cdkVirtualFor="
+      let event of (eventList$ | async)?.index;
+      templateCacheSize: 0
+    "
+    class="event-list"
+  >
+  {{event.id}}
+  </div>
+</cdk-virtual-scroll-viewport>
