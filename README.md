@@ -17,4 +17,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
   ### I'm usgin virtual scroll in this app, so the rendering performance is much better on mobile and on web.
   ### Add more tests, test for all components.
 
+## Demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6bde6743-2cdb-4941-a699-7d1d487cc16c/deploy-status)](https://app.netlify.com/sites/superlative-hamster-47eda4/deploys)
+
+LINK : superlative-hamster-47eda4.netlify.app
+
+
 
